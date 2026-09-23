@@ -1,0 +1,91 @@
+centre,roi,metric,n,unit,before_model,after_model,before_mean,after_mean,before_sd,after_sd,mean_difference,ci_lower,ci_upper,p_value,q_value,source_sheet,source_row,before_cell,after_cell
+Main centre,Small OARs (≤ 4 cm³),DSC,29,unitless,Conventional U-Net comparator,Locked source model,0.811,0.8413,0.0135,0.0157,0.0303,0.0288,0.0319,<0.0001,<0.0001,Table S4,2,H2,P2
+Main centre,Small OARs (≤ 4 cm³),HD95,29,mm,Conventional U-Net comparator,Locked source model,4.014,3.5853,0.1716,0.1745,-0.4287,-0.4426,-0.4149,<0.0001,<0.0001,Table S4,3,H3,P3
+Main centre,Small OARs (≤ 4 cm³),ASD,29,mm,Conventional U-Net comparator,Locked source model,0.5563,0.4738,0.0155,0.0164,-0.0825,-0.0846,-0.0805,<0.0001,<0.0001,Table S4,4,H4,P4
+Main centre,Large OARs (> 4 cm³),DSC,29,unitless,Conventional U-Net comparator,Locked source model,0.8598,0.8918,0.0071,0.007,0.032,0.031,0.033,<0.0001,<0.0001,Table S4,5,H5,P5
+Main centre,Large OARs (> 4 cm³),HD95,29,mm,Conventional U-Net comparator,Locked source model,3.6851,3.2198,0.0872,0.0926,-0.4653,-0.477,-0.4536,<0.0001,<0.0001,Table S4,6,H6,P6
+Main centre,Large OARs (> 4 cm³),ASD,29,mm,Conventional U-Net comparator,Locked source model,0.4391,0.3824,0.0099,0.0114,-0.0568,-0.058,-0.0556,<0.0001,<0.0001,Table S4,7,H7,P7
+Main centre,GTVp,DSC,12,unitless,Conventional U-Net comparator,Locked source model,0.79,0.9472,0.0528,0.0202,0.1572,0.1164,0.198,<0.0001,<0.0001,Table S4,8,H8,P8
+Main centre,GTVp,HD95,12,mm,Conventional U-Net comparator,Locked source model,0.59,0.4408,0.0367,0.0412,-0.1491,-0.1722,-0.1261,<0.0001,<0.0001,Table S4,9,H9,P9
+Main centre,GTVp,ASD,12,mm,Conventional U-Net comparator,Locked source model,0.18,0.1238,0.0162,0.0129,-0.0562,-0.0625,-0.0499,<0.0001,<0.0001,Table S4,10,H10,P10
+Main centre,CTV1,DSC,29,unitless,Conventional U-Net comparator,Locked source model,0.87,0.9304,0.0194,0.0281,0.0604,0.0527,0.0681,<0.0001,<0.0001,Table S4,11,H11,P11
+Main centre,CTV1,HD95,29,mm,Conventional U-Net comparator,Locked source model,2.22,1.9567,0.2704,0.2882,-0.2633,-0.2873,-0.2394,<0.0001,<0.0001,Table S4,12,H12,P12
+Main centre,CTV1,ASD,29,mm,Conventional U-Net comparator,Locked source model,0.31,0.2707,0.0274,0.0295,-0.0393,-0.0421,-0.0364,<0.0001,<0.0001,Table S4,13,H13,P13
+Main centre,CTV2,DSC,29,unitless,Conventional U-Net comparator,Locked source model,0.85,0.88,0.0233,0.029,0.03,0.0257,0.0343,<0.0001,<0.0001,Table S4,14,H14,P14
+Main centre,CTV2,HD95,29,mm,Conventional U-Net comparator,Locked source model,4.49,4.0731,0.3484,0.3844,-0.4169,-0.4558,-0.378,<0.0001,<0.0001,Table S4,15,H15,P15
+Main centre,CTV2,ASD,29,mm,Conventional U-Net comparator,Locked source model,0.48,0.4321,0.0413,0.0431,-0.0479,-0.0515,-0.0442,<0.0001,<0.0001,Table S4,16,H16,P16
+Main centre,GTVn,DSC,12,unitless,Conventional U-Net comparator,Locked source model,0.69,0.7446,0.0512,0.0594,0.0546,0.043,0.0662,<0.0001,<0.0001,Table S4,17,H17,P17
+Main centre,GTVn,HD95,12,mm,Conventional U-Net comparator,Locked source model,6.79,5.8135,0.8746,0.9648,-0.9765,-1.1116,-0.8414,<0.0001,<0.0001,Table S4,18,H18,P18
+Main centre,GTVn,ASD,12,mm,Conventional U-Net comparator,Locked source model,1.25,1.0983,0.1487,0.1548,-0.1517,-0.1791,-0.1243,<0.0001,<0.0001,Table S4,19,H19,P19
+Centre I,Small OARs (≤ 4 cm³),DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.6268,0.7626,0.0175,0.0191,0.1358,0.1175,0.1541,<0.0001,<0.0001,Table S4,20,H20,P20
+Centre I,Small OARs (≤ 4 cm³),HD95,14,mm,Pre-adaptation model,Locally adapted model,7.5795,3.8319,0.2235,0.1436,-3.7476,-3.917,-3.5782,<0.0001,<0.0001,Table S4,21,H21,P21
+Centre I,Small OARs (≤ 4 cm³),ASD,14,mm,Pre-adaptation model,Locally adapted model,4.5897,1.8896,0.148,0.082,-2.7001,-2.8055,-2.5947,<0.0001,<0.0001,Table S4,22,H22,P22
+Centre I,Large OARs (> 4 cm³),DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.853,0.8545,0.0092,0.0152,0.0015,-0.0102,0.0132,0.7866,0.8849,Table S4,23,H23,P23
+Centre I,Large OARs (> 4 cm³),HD95,14,mm,Pre-adaptation model,Locally adapted model,2.0699,2.3473,0.0791,0.0758,0.2774,0.215,0.3399,<0.0001,<0.0001,Table S4,24,H24,P24
+Centre I,Large OARs (> 4 cm³),ASD,14,mm,Pre-adaptation model,Locally adapted model,1.0516,1.1727,0.0258,0.032,0.1212,0.0987,0.1436,<0.0001,<0.0001,Table S4,25,H25,P25
+Centre I,GTVp,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.9097,0.92,0.0188,0.0192,0.0103,-0.004,0.0246,0.1445,0.2,Table S4,26,H26,P26
+Centre I,GTVp,HD95,14,mm,Pre-adaptation model,Locally adapted model,1.749,1.5595,0.4989,0.3394,-0.1895,-0.5959,0.2169,0.3321,0.427,Table S4,27,H27,P27
+Centre I,GTVp,ASD,14,mm,Pre-adaptation model,Locally adapted model,1.2974,1.2176,0.3996,0.3499,-0.0798,-0.4154,0.2558,0.616,0.7392,Table S4,28,H28,P28
+Centre I,CTV1,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.88,0.88,0.0204,0.0485,0.0,-0.0305,0.0305,0.9996,0.9996,Table S4,29,H29,P29
+Centre I,CTV1,HD95,14,mm,Pre-adaptation model,Locally adapted model,1.7879,2.36,0.2147,0.2799,0.5721,0.3991,0.7452,<0.0001,<0.0001,Table S4,30,H30,P30
+Centre I,CTV1,ASD,14,mm,Pre-adaptation model,Locally adapted model,0.9786,1.1,0.1274,0.1009,0.1214,0.0115,0.2314,0.033,0.0539,Table S4,31,H31,P31
+Centre I,CTV2,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.8086,0.89,0.0263,0.0558,0.0814,0.0447,0.1182,0.0004,0.0006,Table S4,32,H32,P32
+Centre I,CTV2,HD95,14,mm,Pre-adaptation model,Locally adapted model,3.1393,2.47,0.3584,0.2827,-0.6693,-0.9189,-0.4197,<0.0001,0.0001,Table S4,33,H33,P33
+Centre I,CTV2,ASD,14,mm,Pre-adaptation model,Locally adapted model,1.615,1.14,0.1884,0.1103,-0.475,-0.6198,-0.3301,<0.0001,<0.0001,Table S4,34,H34,P34
+Centre I,GTVn,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.5407,0.69,0.0705,0.0561,0.1493,0.0941,0.2045,<0.0001,0.0001,Table S4,35,H35,P35
+Centre I,GTVn,HD95,14,mm,Pre-adaptation model,Locally adapted model,5.605,6.25,1.065,0.657,0.645,-0.2451,1.5351,0.1415,0.2,Table S4,36,H36,P36
+Centre I,GTVn,ASD,14,mm,Pre-adaptation model,Locally adapted model,3.07,3.09,0.6249,0.3134,0.02,-0.4079,0.4479,0.9211,0.9753,Table S4,37,H37,P37
+Centre II,Small OARs (≤ 4 cm³),DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.6081,0.7825,0.0217,0.0179,0.1744,0.1633,0.1855,<0.0001,<0.0001,Table S4,38,H38,P38
+Centre II,Small OARs (≤ 4 cm³),HD95,21,mm,Pre-adaptation model,Locally adapted model,8.3272,3.5738,0.4352,0.0763,-4.7534,-4.9422,-4.5647,<0.0001,<0.0001,Table S4,39,H39,P39
+Centre II,Small OARs (≤ 4 cm³),ASD,21,mm,Pre-adaptation model,Locally adapted model,4.6436,1.791,0.2301,0.0368,-2.8525,-2.9542,-2.7509,<0.0001,<0.0001,Table S4,40,H40,P40
+Centre II,Large OARs (> 4 cm³),DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.8055,0.851,0.0096,0.01,0.0455,0.038,0.0529,<0.0001,<0.0001,Table S4,41,H41,P41
+Centre II,Large OARs (> 4 cm³),HD95,21,mm,Pre-adaptation model,Locally adapted model,2.6308,2.287,0.1267,0.0391,-0.3438,-0.4073,-0.2802,<0.0001,<0.0001,Table S4,42,H42,P42
+Centre II,Large OARs (> 4 cm³),ASD,21,mm,Pre-adaptation model,Locally adapted model,1.3026,1.1495,0.0575,0.0256,-0.1531,-0.1855,-0.1206,<0.0001,<0.0001,Table S4,43,H43,P43
+Centre II,GTVp,DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.8887,0.9111,0.0283,0.0235,0.0224,0.0096,0.0352,0.0016,0.0018,Table S4,44,H44,P44
+Centre II,GTVp,HD95,21,mm,Pre-adaptation model,Locally adapted model,2.2093,1.8466,0.54,0.5298,-0.3627,-0.6471,-0.0784,0.015,0.0159,Table S4,45,H45,P45
+Centre II,GTVp,ASD,21,mm,Pre-adaptation model,Locally adapted model,1.7487,1.5091,0.5158,0.5008,-0.2396,-0.5937,0.1144,0.1733,0.1733,Table S4,46,H46,P46
+Centre II,CTV1,DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.8202,0.9024,0.0226,0.0319,0.0822,0.0631,0.1013,<0.0001,<0.0001,Table S4,47,H47,P47
+Centre II,CTV1,HD95,21,mm,Pre-adaptation model,Locally adapted model,2.9803,1.7805,0.3868,0.0933,-1.1999,-1.3748,-1.0249,<0.0001,<0.0001,Table S4,48,H48,P48
+Centre II,CTV1,ASD,21,mm,Pre-adaptation model,Locally adapted model,1.3496,0.83,0.1636,0.0442,-0.5196,-0.6005,-0.4386,<0.0001,<0.0001,Table S4,49,H49,P49
+Centre II,CTV2,DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.7897,0.8929,0.0311,0.0625,0.1032,0.0687,0.1376,<0.0001,<0.0001,Table S4,50,H50,P50
+Centre II,CTV2,HD95,21,mm,Pre-adaptation model,Locally adapted model,3.434,2.421,0.3161,0.1864,-1.013,-1.1849,-0.8411,<0.0001,<0.0001,Table S4,51,H51,P51
+Centre II,CTV2,ASD,21,mm,Pre-adaptation model,Locally adapted model,1.6035,1.1495,0.2007,0.0967,-0.454,-0.5631,-0.3449,<0.0001,<0.0001,Table S4,52,H52,P52
+Centre II,GTVn,DSC,21,unitless,Pre-adaptation model,Locally adapted model,0.6703,0.771,0.0479,0.0401,0.1007,0.0721,0.1292,<0.0001,<0.0001,Table S4,53,H53,P53
+Centre II,GTVn,HD95,21,mm,Pre-adaptation model,Locally adapted model,3.9658,2.8605,0.543,0.2172,-1.1054,-1.3486,-0.8621,<0.0001,<0.0001,Table S4,54,H54,P54
+Centre II,GTVn,ASD,21,mm,Pre-adaptation model,Locally adapted model,1.9464,1.4595,0.3206,0.0993,-0.4868,-0.6469,-0.3268,<0.0001,<0.0001,Table S4,55,H55,P55
+Centre III,Small OARs (≤ 4 cm³),DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.6301,0.7071,0.0167,0.0154,0.077,0.0675,0.0865,<0.0001,<0.0001,Table S4,56,H56,P56
+Centre III,Small OARs (≤ 4 cm³),HD95,14,mm,Pre-adaptation model,Locally adapted model,7.9299,4.6009,0.3288,0.1565,-3.329,-3.5419,-3.1161,<0.0001,<0.0001,Table S4,57,H57,P57
+Centre III,Small OARs (≤ 4 cm³),ASD,14,mm,Pre-adaptation model,Locally adapted model,4.5632,2.2894,0.1913,0.0762,-2.2739,-2.3838,-2.164,<0.0001,<0.0001,Table S4,58,H58,P58
+Centre III,Large OARs (> 4 cm³),DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.828,0.8401,0.0147,0.008,0.0121,0.001,0.0231,0.035,0.07,Table S4,59,H59,P59
+Centre III,Large OARs (> 4 cm³),HD95,14,mm,Pre-adaptation model,Locally adapted model,2.3113,2.366,0.0702,0.0798,0.0547,-0.0039,0.1132,0.0649,0.1168,Table S4,60,H60,P60
+Centre III,Large OARs (> 4 cm³),ASD,14,mm,Pre-adaptation model,Locally adapted model,1.1855,1.2272,0.0331,0.0398,0.0418,0.0091,0.0745,0.0162,0.0417,Table S4,61,H61,P61
+Centre III,GTVp,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.9443,0.9501,0.0182,0.018,0.0058,-0.0098,0.0214,0.437,0.5884,Table S4,62,H62,P62
+Centre III,GTVp,HD95,14,mm,Pre-adaptation model,Locally adapted model,1.3009,1.2749,0.2959,0.3334,-0.026,-0.2274,0.1754,0.7847,0.8308,Table S4,63,H63,P63
+Centre III,GTVp,ASD,14,mm,Pre-adaptation model,Locally adapted model,1.1176,1.1943,0.3022,0.3278,0.0767,-0.1567,0.3101,0.4904,0.5884,Table S4,64,H64,P64
+Centre III,CTV1,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.8807,0.8907,0.0373,0.0325,0.01,-0.0249,0.0449,0.5462,0.6145,Table S4,65,H65,P65
+Centre III,CTV1,HD95,14,mm,Pre-adaptation model,Locally adapted model,1.8307,1.1209,0.1918,0.0847,-0.7099,-0.8387,-0.581,<0.0001,<0.0001,Table S4,66,H66,P66
+Centre III,CTV1,ASD,14,mm,Pre-adaptation model,Locally adapted model,0.93,0.9941,0.1083,0.0907,0.0641,-0.0377,0.166,0.1969,0.3222,Table S4,67,H67,P67
+Centre III,CTV2,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.82,0.8407,0.0706,0.0329,0.0207,-0.0156,0.057,0.2391,0.3586,Table S4,68,H68,P68
+Centre III,CTV2,HD95,14,mm,Pre-adaptation model,Locally adapted model,3.0707,2.6857,0.4008,0.2744,-0.385,-0.68,-0.09,0.0145,0.0417,Table S4,69,H69,P69
+Centre III,CTV2,ASD,14,mm,Pre-adaptation model,Locally adapted model,1.4786,1.59,0.1893,0.1301,0.1114,0.0122,0.2107,0.0306,0.0688,Table S4,70,H70,P70
+Centre III,GTVn,DSC,14,unitless,Pre-adaptation model,Locally adapted model,0.71,0.7107,0.0538,0.0356,0.0007,-0.0408,0.0423,0.9709,0.9709,Table S4,71,H71,P71
+Centre III,GTVn,HD95,14,mm,Pre-adaptation model,Locally adapted model,3.5393,2.8829,0.5388,0.2233,-0.6564,-1.0295,-0.2834,0.0022,0.0079,Table S4,72,H72,P72
+Centre III,GTVn,ASD,14,mm,Pre-adaptation model,Locally adapted model,1.8293,1.87,0.1998,0.1775,0.0407,-0.0804,0.1618,0.4806,0.5884,Table S4,73,H73,P73
+Centre IV,Small OARs (≤ 4 cm³),DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.613,0.7188,0.0265,0.0086,0.1058,0.0951,0.1166,<0.0001,<0.0001,Table S4,74,H74,P74
+Centre IV,Small OARs (≤ 4 cm³),HD95,25,mm,Pre-adaptation model,Locally adapted model,4.4193,3.0725,0.2765,0.1406,-1.3468,-1.4588,-1.2348,<0.0001,<0.0001,Table S4,75,H75,P75
+Centre IV,Small OARs (≤ 4 cm³),ASD,25,mm,Pre-adaptation model,Locally adapted model,1.7539,1.6368,0.1074,0.0647,-0.1171,-0.1712,-0.063,0.0002,0.0002,Table S4,76,H76,P76
+Centre IV,Large OARs (> 4 cm³),DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.81,0.855,0.0226,0.0088,0.045,0.0364,0.0536,<0.0001,<0.0001,Table S4,77,H77,P77
+Centre IV,Large OARs (> 4 cm³),HD95,25,mm,Pre-adaptation model,Locally adapted model,1.6845,1.6418,0.1437,0.0545,-0.0426,-0.0997,0.0144,0.1362,0.1532,Table S4,78,H78,P78
+Centre IV,Large OARs (> 4 cm³),ASD,25,mm,Pre-adaptation model,Locally adapted model,1.1407,1.1489,0.0844,0.0437,0.0083,-0.0266,0.0431,0.6286,0.6286,Table S4,79,H79,P79
+Centre IV,GTVp,DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.64,0.9276,0.0856,0.0211,0.2876,0.2539,0.3213,<0.0001,<0.0001,Table S4,80,H80,P80
+Centre IV,GTVp,HD95,25,mm,Pre-adaptation model,Locally adapted model,2.4127,0.8144,0.43,0.0829,-1.5983,-1.7647,-1.432,<0.0001,<0.0001,Table S4,81,H81,P81
+Centre IV,GTVp,ASD,25,mm,Pre-adaptation model,Locally adapted model,2.2993,0.441,0.409,0.0438,-1.8583,-2.0257,-1.691,<0.0001,<0.0001,Table S4,82,H82,P82
+Centre IV,CTV1,DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.87,0.9,0.0424,0.0171,0.03,0.0105,0.0494,0.004,0.0051,Table S4,83,H83,P83
+Centre IV,CTV1,HD95,25,mm,Pre-adaptation model,Locally adapted model,1.354,0.8479,0.2765,0.0994,-0.5062,-0.6327,-0.3796,<0.0001,<0.0001,Table S4,84,H84,P84
+Centre IV,CTV1,ASD,25,mm,Pre-adaptation model,Locally adapted model,1.0823,0.4822,0.172,0.0412,-0.6002,-0.6755,-0.5249,<0.0001,<0.0001,Table S4,85,H85,P85
+Centre IV,CTV2,DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.71,0.83,0.0766,0.0238,0.12,0.0843,0.1558,<0.0001,<0.0001,Table S4,86,H86,P86
+Centre IV,CTV2,HD95,25,mm,Pre-adaptation model,Locally adapted model,1.4139,3.5858,0.4145,0.4435,2.1719,1.9024,2.4414,<0.0001,<0.0001,Table S4,87,H87,P87
+Centre IV,CTV2,ASD,25,mm,Pre-adaptation model,Locally adapted model,1.2726,1.3236,0.3518,0.17,0.051,-0.114,0.2159,0.5296,0.5607,Table S4,88,H88,P88
+Centre IV,GTVn,DSC,25,unitless,Pre-adaptation model,Locally adapted model,0.61,0.7314,0.0825,0.0202,0.1214,0.0848,0.1581,<0.0001,<0.0001,Table S4,89,H89,P89
+Centre IV,GTVn,HD95,25,mm,Pre-adaptation model,Locally adapted model,4.36,3.699,0.6776,0.326,-0.661,-0.9853,-0.3367,0.0003,0.0004,Table S4,90,H90,P90
+Centre IV,GTVn,ASD,25,mm,Pre-adaptation model,Locally adapted model,1.84,1.7617,0.2002,0.1616,-0.0783,-0.1794,0.0228,0.1231,0.1477,Table S4,91,H91,P91

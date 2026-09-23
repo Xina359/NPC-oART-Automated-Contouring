@@ -1,0 +1,26 @@
+{
+  "_instructions": "Copy this file to imaging.local.json. Replace REPLACE_ paths and ROI names/labels with your local data. Paths may be absolute or relative to this config file. Keep one input-format example and add your own cases. No patient images are distributed.",
+  "cases": [
+    {
+      "study_id": "EXAMPLE_LABELMAP_CASE",
+      "model_state": "prediction",
+      "format": "labelmap",
+      "reference_path": "REPLACE_WITH_REFERENCE_LABELMAP.nii.gz",
+      "prediction_path": "REPLACE_WITH_PREDICTED_LABELMAP.nii.gz",
+      "rois": [
+        {"name": "Example bilateral ROI", "reference_labels": [1, 2], "prediction_labels": [1, 2]}
+      ]
+    },
+    {
+      "study_id": "EXAMPLE_RTSTRUCT_CASE",
+      "model_state": "prediction",
+      "format": "rtstruct",
+      "ct_directory": "REPLACE_WITH_DIRECTORY_CONTAINING_ONE_CT_SERIES",
+      "reference_path": "REPLACE_WITH_REFERENCE_RTSTRUCT.dcm",
+      "prediction_path": "REPLACE_WITH_PREDICTED_RTSTRUCT.dcm",
+      "rois": [
+        {"name": "Example bilateral ROI", "reference_rois": ["REPLACE_LEFT_ROI_NAME", "REPLACE_RIGHT_ROI_NAME"], "prediction_rois": ["REPLACE_LEFT_ROI_NAME", "REPLACE_RIGHT_ROI_NAME"]}
+      ]
+    }
+  ]
+}

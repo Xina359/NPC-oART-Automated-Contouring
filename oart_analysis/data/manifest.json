@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "dataset_version": "1.1.0",
+  "source_workbook_sha256": "6e6104d0e38366b670f8148a2b4f69ff87a9729cda64c055ad0b0e750e0a8e5f",
+  "numeric_storage": "CSV values preserve binary64 precision; no additional rounding",
+  "datasets": {
+    "summary_s4": {
+      "file": "table_s4_plot.csv",
+      "rows": 90,
+      "types": {
+        "centre": "str",
+        "roi": "str",
+        "metric": "str",
+        "n": "int",
+        "unit": "str",
+        "before_model": "str",
+        "after_model": "str",
+        "before_mean": "float",
+        "after_mean": "float",
+        "before_sd": "float",
+        "after_sd": "float",
+        "mean_difference": "float",
+        "ci_lower": "float",
+        "ci_upper": "float",
+        "p_value": "str",
+        "q_value": "str",
+        "source_sheet": "str",
+        "source_row": "int",
+        "before_cell": "str",
+        "after_cell": "str"
+      },
+      "sha256": "3d66a70d5761fe66c7a982f13e50efe1c1678969a62e8d68d4bc9d56a9f7ce6c"
+    },
+    "summary_s5": {
+      "file": "table_s5_plot.csv",
+      "rows": 315,
+      "types": {
+        "centre": "str",
+        "roi_group": "str",
+        "roi": "str",
+        "metric": "str",
+        "unit": "str",
+        "n": "int",
+        "before_model": "str",
+        "before_mean": "float",
+        "before_sd": "float",
+        "before_min": "float",
+        "before_max": "float",
+        "before_q1": "float",
+        "before_median": "float",
+        "before_q3": "float",
+        "after_model": "str",
+        "after_mean": "float",
+        "after_sd": "float",
+        "after_min": "float",
+        "after_max": "float",
+        "after_q1": "float",
+        "after_median": "float",
+        "after_q3": "float",
+        "mean_difference": "float",
+        "sd_paired_difference": "float",
+        "ci_lower": "float",
+        "ci_upper": "float",
+        "p_value": "str",
+        "q_value": "str",
+        "source_sheet": "str",
+        "source_row": "int",
+        "difference_cell": "str",
+        "q_cell": "str",
+        "p_numeric": "float",
+        "q_numeric": "float"
+      },
+      "sha256": "deb73101554c3f0f924ad1960e882780630fb834bbba30a75686e4183998a235"
+    },
+    "performance": {
+      "file": "prospective_endpoints.csv",
+      "rows": 2430,
+      "types": {
+        "study_id": "str",
+        "category": "str",
+        "category_type": "str",
+        "metric": "str",
+        "value": "float",
+        "unit": "str",
+        "n_components": "int",
+        "source_sheet": "str",
+        "source_rows": "str",
+        "source_cells": "str",
+        "derivation": "str"
+      },
+      "sha256": "0525d73307f25fc948b99e2994b51d6953027f054fa47a3cd1cc3d043f582b28"
+    },
+    "timing": {
+      "file": "prospective_timing.csv",
+      "rows": 135,
+      "types": {
+        "study_id": "str",
+        "algorithm_s": "float",
+        "review_s": "float",
+        "combined_s": "float",
+        "source_sheet": "str",
+        "source_row": "int",
+        "algorithm_cell": "str",
+        "review_cell": "str",
+        "combined_cell": "str"
+      },
+      "sha256": "a40af6f383111499a8067c0c135059225142b8e5cc4fbfccfedf81c09cfe9744"
+    },
+    "gtvn": {
+      "file": "gtvn_strategies.csv",
+      "rows": 108,
+      "types": {
+        "Centre": "str",
+        "Study ID": "str",
+        "ROI": "str",
+        "Strategy": "str",
+        "Metric": "str",
+        "Value": "float",
+        "Unit": "str",
+        "source_row": "int"
+      },
+      "sha256": "4634da2fee772f3e03c947e0f6ef212917771e799c9b776eb790c0c415a9d492"
+    },
+    "case": {
+      "file": "representative_oar_case.csv",
+      "rows": 21,
+      "types": {
+        "study_id": "str",
+        "group": "str",
+        "roi": "str",
+        "baseline_dsc": "float",
+        "vag_dsc": "float",
+        "beneficial_change_dsc": "float",
+        "baseline_dsc_cell": "str",
+        "vag_dsc_cell": "str",
+        "baseline_hd95": "float",
+        "vag_hd95": "float",
+        "beneficial_change_hd95": "float",
+        "baseline_hd95_cell": "str",
+        "vag_hd95_cell": "str",
+        "baseline_asd": "float",
+        "vag_asd": "float",
+        "beneficial_change_asd": "float",
+        "baseline_asd_cell": "str",
+        "vag_asd_cell": "str"
+      },
+      "sha256": "ed5a67fb30a26a8d5fdb20d3c72d4afee9456ec0d6ae4286597f1633d92867e8"
+    }
+  }
+}
